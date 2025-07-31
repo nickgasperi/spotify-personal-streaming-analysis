@@ -53,8 +53,8 @@ Created Columns
 
 **Listening Patterns**
 
-* I streamed the most media on weekdays, with spikes during the middle of the day and the evening <br>
-<br>
+* I streamed the most media on weekdays, with spikes during the middle of the day and the evening. <br>
+
     ![Heat Map](images/spotify-heat-map.png)
 
 **Seasonality**
