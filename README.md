@@ -57,7 +57,7 @@ Changed Data Types
 * I streamed the most media on weekdays, with spikes during the middle of the day and the evening. <br>
 
   <p align = "center">
-    <img src = "images/spotify-heat-map.png" width = "270">
+    <img src = "images/spotify-heat-map.png" width = "300">
   </p>
 
 * Overall seasonality effect
