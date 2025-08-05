@@ -7,7 +7,7 @@
 ## **Project Background**
 
 ### **Introduction**<br>
-This project analyzes my personal Spotify streaming history from 2015 to 2024 to uncover listening habits and the evolution of my music taste. Having been asked *"What kind of music do you listen to?"* more times than I could count, I began to wonder myself, and decided to take a data-driven look at my cumulative listening history. By exploring trends in what, when, and how I stream,this analysis aims is to draw objective conclusions about how my listening preferences have developed over time, and where they might be heading next.
+This project analyzes my personal Spotify streaming history from 2015 to 2024 to uncover listening habits and the evolution of my music taste using Power BI. Having been asked *"What kind of music do you listen to?"* more times than I could count, I began to wonder myself, and decided to take a data-driven look at my cumulative listening history. By exploring trends in what, when, and how I stream,this analysis aims is to draw objective conclusions about how my listening preferences have developed over time, and where they might be heading next.
 
 ### **About the Data** <br>
 The dataset used in this analysis contains detailed records of my personal streaming activity throughout the full lifespan of my Spotify account, from 2015-2024. Each row represents a streamed song or podcast episode and includes metadata such as the date-time stamp (*ts*), identifying variables like track/episode name and artist/podcast name, and a key quantitative measure, duration played (*ms_played*). The data was delivered from Spotify via email, stored in 23 JSON files containing 327,123 total records. All files were combined and cleaned into one useable dataset titled *full_streaming_history*.
@@ -31,9 +31,9 @@ Unique artists and skips - exploring new music and finally started to find my ta
 ### **Data Cleaning**
 Deleted Columns
 
-* ***ip_addr***, ***conn_country***, and ***platform*** to protect sensitive personal information
-* ***audiobook_title***, ***audiobook_uri***, ***audiobook_chapter_uri***, and ***audiobook_chapter_title***, as audiobooks are not a significant part of my listening profile
-* ***incognito_mode***, as this feature was never used on my account
+* ***ip_addr***, ***conn_country***, and ***platform*** to protect sensitive personal information.
+* ***audiobook_title***, ***audiobook_uri***, ***audiobook_chapter_uri***, and ***audiobook_chapter_title***, as audiobooks are not a significant part of my listening profile.
+* ***incognito_mode***, as this feature was never used on my account.
 
 Renamed Columns
 
@@ -46,21 +46,27 @@ Renamed Columns
   
 Created Columns
 
-* ***sec_played***, ***min_played***, and ***hrs_played*** as alternative measures of record duration
-* ***month_streamed***, ***hr_of_day_streamed***, and     ***day_of_week_streamed*** to facilitate analysis of listening patterns
-* ***month_abbr*** to include abbreviated month names
-* ***day_of_week_id*** and ***month_abbr*** to override default alphabetical sorting of categorical data 
-* ***is_track*** to indicate records representing songs and ***is_episode*** to indicate podcast episode records
-* ***media_type*** to assign either 'Track' or 'Episode' to each record for labeling visuals
+* ***sec_played***, ***min_played***, and ***hrs_played*** as alternative measures of record duration.
+* ***month_streamed***, ***hr_of_day_streamed***, and     ***day_of_week_streamed*** to facilitate analysis of listening patterns.
+* ***month_abbr*** to include abbreviated month names.
+* ***day_of_week_id*** and ***month_abbr*** to override default alphabetical sorting of categorical data.
+* ***is_track*** to indicate records representing songs and ***is_episode*** to indicate podcast episode records.
+* ***media_type*** to assign either 'Track' or 'Episode' to each record for labeling visuals.
 
 Changed Data Types
 
-* Converted all indicator variables from TRUE/FALSE to 1/0 (Whole Number) for compatibility and clarity in visuals
+* Converted all indicator variables from TRUE/FALSE to 1/0 (Whole Number) for compatibility in visuals.
 
 <hr style = "border: none; height: 1px; background-color: lightgray; margin: 0.75em 0;">
 
 ## **Summary of Insights**
 ### **When I Listened: Temporal Patterns**
+* Growth in total hours by year
+* stuff
+<p align = "center">
+  <img src = "images/spotify-hours-by-year.png" width = "550">
+</p>
+
 * I most frequently streamed from 12:00-2:00 P.M., with an additional spike from 7:00-9:00 P.M.
 * Weekday streaming was consistent and followed the same time-of-day patterns displayed in the bar chart. Weekend activity was lower overall, with no clear temporal patterns.
 
@@ -102,7 +108,7 @@ Changed Data Types
   <img src = "images/spotify-hours-split-by-year.png" width = "550">
 </p>
 
-* From 2015-2020, my most streamed artist each year was a rapper. Since 2021, each top artist has been rock band. 
+* From 2015-2020, my most streamed artist each year was a rapper. Since 2021, each top artist has been a rock band. 
 
 <p align = "center">
   <img src = "images/spotify-artists-by-year.png">
