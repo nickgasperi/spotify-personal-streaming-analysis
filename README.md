@@ -116,7 +116,7 @@ Changed Data Types
 * From 2015–2020, my most streamed artist each year was a rapper. Since 2021, each top artist has been a rock band, signaling a major shift in genre preference.
 
 <p align = "center">
-  <img src = "images/spotify-artists-by-year.png" width = "550">
+  <img src = "images/spotify-artist-by-year.png" width = "550">
 </p>
 
 * Green Day has emerged as my most consistently streamed artist in recent years.
