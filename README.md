@@ -15,13 +15,9 @@ The dataset used in this analysis contains detailed records of my personal strea
 <hr style = "border: none; height: 1px; background-color: lightgray; margin: 0.75em 0;">
 
 ## **Executive Summary**
-From 2015–2019, the total hours streamed on my Spotify account increased by over 1100%, reflecting a period of rapidly growing engagement. Streaming volume peaked in 2019 and has remained relatively stable since 2020. <br>
+From 2015–2019, the total hours streamed on my Spotify account increased by over 1100%, reflecting a period of rapidly growing engagement. Since 2019, streaming volume has remained relatively stable. Streaming frequency varied by day of week and season. Weekday activity was consistently higher than weekends, streaming 24% more Monday–Friday. Total streaming also dipped notably during the summer months. This seasonality effect is captured by a 64% decrease in total hours streamed from December to August. Peak listening hours occurred between 12:00–2:00 P.M. and again between 7:00–9:00 P.M. <br>
 
-My streaming frequency varied by day of week and season. Weekday activity was consistently higher than weekends, streaming 24% more Monday–Friday. Total streaming also dipped notably during the summer months. This seasonality effect is captured by a 64% decrease in total hours streamed from December to August. Peak listening hours occurred between 12:00–2:00 P.M. and again between 7:00–9:00 P.M. <br>
-
-During the earlier years of my account, I frequently skipped tracks while exploring a wide range of new artists, peaking in 2019 with a skip rate of over 50%. Skip rate steadily decreased year-over-year, falling to 33% in 2024, while exploring just 3% fewer unique artists.
-
-My most-streamed artists from 2015–2020 were rappers; since 2021, each annual top artist has been a rock band. By 2024, my listening profile included a more balanced mix of media types, with annual podcast consumption increasing by 30% from 2019–2024.
+During the earlier years of my account, I frequently skipped tracks while exploring a wide range of new artists, peaking in 2019 with a skip rate of over 50%. Skip rates steadily declined year-over-year, falling to 33% in 2024, while exploring just 3% fewer unique artists. My most-streamed artists from 2015–2020 were rappers; since 2021, each annual top artist has been a rock band. By 2024, my listening profile included a more balanced mix of media types, with annual podcast consumption increasing by 30% from 2019–2024.
 
 <hr style = "border: none; height: 1px; background-color: lightgray; margin: 0.75em 0;">
 
@@ -65,7 +61,7 @@ Changed Data Types
 
 ## **Summary of Insights**
 ### **When I Listened: Temporal Patterns**
-* Total hours streamed per year increased by 1112% from 2015–2019, representing a period of rapid early growth in activity.
+* Total streaming hours per year increased by 1112% from 2015–2019, representing a period of rapid early growth in activity.
 * Streaming has remained consistent since 2019, with a change of -0.8% in total hours between 2019 and 2024.
 
 <p align = "center">
@@ -80,12 +76,14 @@ Changed Data Types
 </p>
 
 * Total streaming volume varied seasonally. Three of the four highest-volume months occurred in the fall (October–December), while the four lowest-volume months fell in the summer (June–September).
+* I streamed 64% less frequently during my least active month (August) compared to the most active month (December). 
+* Streaming was 64% lower in the lowest activity month (August) compared to the highest (December).
 
 <p align = "center">
   <img src = "images/spotify-hours-by-month-.png" style="width:480px">
 </p>
 
-* Within this overall trend, songs and podcast episodes followed markedly different seasonal paths.
+* Within the overall seasonal trend, songs and podcast episodes followed markedly different seasonal paths.
 * Monthly song volume closely followed the overall streaming trend, while podcast activity exhibited a contrasting seasonal pattern.
   
 <p align = "center">
@@ -94,7 +92,8 @@ Changed Data Types
 
 ### **How I Listened: Streaming Behaviors**
 
-* The percentage of songs skipped peaked in 2018–2019, when more than half of all tracks played were skipped before completion. Starting in 2020, my skip rate steadily declined, dropping to 35% in 2024. 
+* The percentage of songs I skipped before completing peaked in 2019, after skipping 54% of tracks played before completion. Starting in 2020, my skip rate steadily declined, dropping to 35% in 2024.
+* From 2020-2024, I completed more songs than I skipped.
 
 <p align = "left">
   <img src = "images/spotify-skipped-finished-songs.png">
@@ -114,14 +113,13 @@ Changed Data Types
   <img src = "images/spotify-hours-split-by-year.png" style="width:480px">
 </p>
 
-* From 2015–2020, my most streamed artist each year was a rapper. Since 2021, each top artist has been a rock band, signaling a major shift in genre preference.
+* From 2015–2020, my most streamed artist each year was a rapper. Since 2021, each top artist has been a rock band, signaling a shift in genre preference.
 
 <p align = "center">
   <img src = "images/spotify-artist-by-year.png">
 </p>
 
-* Green Day has emerged as my most consistently streamed artist in recent years.
-* The majority of my Green Day streaming has been spent listening to classic albums. However, after spending a significant amount of time listening to the 2024 release, *Saviors*, my all-time streaming mix includes a blend of longtime favorites and newer releases. 
+* Green Day has emerged as my most consistently streamed artist in recent years. The majority my streaming of this artist has been spent listening to classic albums. However, after spending a significant amount of time listening to the 2024 release, *Saviors*, my all-time streaming mix includes a blend of longtime favorites and newer releases. 
 
 <p align = "center">
   <img src = "images/spotify-greenday-by-year.png">
@@ -133,10 +131,10 @@ Changed Data Types
 ### **Reflections**
 * My weekday streaming was significantly higher than weekends, reflecting a structured routine with more opportunities to listen after lunch and in the evening. Streaming activity on weekends and during the summer notably decreased, due to spending more time outdoors and in social settings.
 * The frequency of my podcast streaming closely mirrors the NFL calendar. Streaming rises steadily beginning in May after the draft, peaks during the regular season, and tapers off late in the playoffs when there are fewer games to discuss. These trends align with periods when my regularly streamed podcasts release new episodes focused on NFL topics, which I am most likely to listen to.
-* In my early streaming years, I frequently skipped songs while exploring new artists and genres. After my exploration peaked in 2019, I began to settle into my preferences, resulting in a declining skip rate despite trying new artists at a similar clip. This shift in behavior reflects both personal growth as a more patient listener, as well as improvements in Spotify's algorithms, which now suggests more songs I am likely to enjoy.
+* In my early streaming years, I frequently skipped songs while exploring new artists and genres. After my exploration peaked in 2019, I began to settle into my preferences, resulting in a declining skip rate despite trying new artists at a similar clip. This shift in behavior reflects both personal growth as a more patient listener, as well as improvements in Spotify's algorithms, which now suggest more songs I am likely to enjoy.
 * Over the lifetime of my account, my music taste has grown to incorporate a diverse collection of genres. While early years featured almost exclusively rap, my preffered genre as of 2024 has shifted to rock, with alternative and bluegrass joining as supporing genres.
 
 ### **Recommendations**
 1. Continue to stream at least 500 unique artists each year to encourage further diversity of my listening profile.
-2. Embrace a more patient listening approch by continuing the trend of skipping fewew tracks each year, drop to 25% or lower.
-3. Develop a more balanced seasonal streaming _ by decreasing listening during the winter months to spend more time away from devices.
+2. Embrace a more patient listening approch by continuing to finish more songs than I skip each year.
+3. Develop a more balanced seasonal streaming _ by decreasing streaming volume during the winter months to support the bigger goal of spending less time on devices.
