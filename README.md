@@ -2,8 +2,6 @@
 
 **By Nick Gasperi**
 
-[*Click here to view the full GitHub Repository*](https://github.com/nickgasperi/spotify-personal-streaming-analysis)
-
 <p align = "center">
   <img src = "images/spotify-wrapped-dashboard.png">
 </p>
@@ -15,14 +13,10 @@ This project analyzes my personal Spotify streaming history from 2015–2024 to 
 ### **About the Data** <br>
 The dataset used in this analysis contains detailed records of my personal streaming activity throughout the full lifespan of my Spotify account from 2015–2024. Each row represents a streamed song or podcast episode and includes metadata such as the date-time stamp, identifying variables like track or episode name and artist or podcast name, and quantitative measures such as duration played. The data was delivered from Spotify via email, stored in 23 JSON files containing 327,123 total records. All files were aggregated into one useable dataset titled *full_streaming_history* using Power Query.
 
-<hr style = "border: none; height: 1px; background-color: lightgray; margin: 0.75em 0;">
-
 ## **Executive Summary**
 From 2015–2019, the total annual hours streamed on my Spotify account increased by over 1100%, reflecting a period of rapidly growing engagement. From 2019-2024, annual streaming volume remained relatively stable, decreasing by a marginal 0.8%. Streaming frequency varied by day of week and season. Weekday activity was consistently higher than weekends, streaming 24% more hours Monday–Friday on average. My streaming frequency also experienced seasonality, dipping notably during the summer months. Monthly streaming dropped by 64% from my most active period in December to my least in August. Peak listening hours occurred between 12:00–2:00 P.M. and 7:00–9:00 P.M. <br>
 
 During the earlier years of my account, I frequently skipped tracks while exploring a wide range of new artists, peaking in 2019 with a skip rate of 54%. Skip rates steadily declined year-over-year, falling to 33% in 2024, while exploring just 3% fewer unique artists. My most-streamed artists from 2015–2020 were rappers; since 2021, each annual top artist has been a rock band. By 2024, my listening profile included a more balanced mix of media types, with annual podcast consumption increasing by 30% from 2019–2024.
-
-<hr style = "border: none; height: 1px; background-color: lightgray; margin: 0.75em 0;">
 
 ## **Data Preparation**
 ### **Data Aggregation**<br>
@@ -59,8 +53,6 @@ Created Columns
 Changed Data Types
 
 * Converted all indicator variables from TRUE/FALSE to 1/0 (Whole Number) for compatibility in visuals.
-
-<hr style = "border: none; height: 1px; background-color: lightgray; margin: 0.75em 0;">
 
 ## **Summary of Insights**
 ### **When I Listened: Temporal Patterns**
@@ -125,8 +117,6 @@ Changed Data Types
 <p align = "center">
   <img src = "images/spotify-greenday-by-year.png">
 </p>
-
-<hr style = "border: none; height: 1px; background-color: lightgray; margin: 0.75em 0;">
 
 ## **Reflections & Recommendations**
 ### **Reflections**
