@@ -7,10 +7,10 @@
 </p>
 
 ## **Project Background**
-### **Introduction**
+#### **Introduction**
 This project analyzes my personal Spotify streaming history from 2015–2024 to uncover listening habits and the evolution of my music taste. Having been asked *"What kind of music do you listen to?"* more times than I could count, I began to wonder myself, and decided to explore my cumulative streaming history to find the answer. By identifying trends in when, how, and what I streamed, this analysis aims to draw objective conclusions about how my listening preferences have developed over time and develop recommendations to maximize my future streaming experience.
 
-### **About the Data** <br>
+#### **About the Data** <br>
 The dataset used in this analysis contains detailed records of my personal streaming activity throughout the full lifespan of my Spotify account from 2015–2024. Each row represents a streamed song or podcast episode and includes metadata such as the date-time stamp, identifying variables like track or episode name and artist or podcast name, and quantitative measures such as duration played. The data was delivered from Spotify via email, stored in 23 JSON files containing 327,123 total records. All files were aggregated into one useable dataset titled *full_streaming_history* using Power Query.
 
 ## **Executive Summary**
