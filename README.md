@@ -7,20 +7,19 @@
 </p>
 
 ## **Project Background**
-### **Introduction**
 This project analyzes my personal Spotify streaming history from 2015–2024 to uncover listening habits and the evolution of my music taste. Having been asked *"What kind of music do you listen to?"* more times than I could count, I began to wonder myself, and decided to explore my cumulative streaming history to find the answer. By identifying trends in when, how, and what I streamed, this analysis aims to draw objective conclusions about how my listening preferences have developed over time and develop recommendations to maximize my future streaming experience.
 
-### **About the Data** <br>
-The dataset used in this analysis contains detailed records of my personal streaming activity throughout the full lifespan of my Spotify account from 2015–2024. Each row represents a streamed song or podcast episode and includes metadata such as the date-time stamp, identifying variables like track or episode name and artist or podcast name, and quantitative measures such as duration played. The data was delivered from Spotify via email, stored in 23 JSON files containing 327,123 total records. All files were aggregated into one useable dataset titled *full_streaming_history* using Power Query.
+## **About the Data**
+The data was obtained from Spotify via email, stored in 23 JSON files containing 327,123 total records. All files were aggregated into one useable dataset titled *full_streaming_history* using Power Query. Each record represents a streamed song or podcast episode and includes metadata such as the date-time stamp, identifying variables like track or episode name and artist or podcast name, and quantitative measures such as duration played.
 
 ## **Executive Summary**
-From 2015–2019, the total annual hours streamed on my Spotify account increased by over 1100%, reflecting a period of rapidly growing engagement. From 2019-2024, annual streaming volume remained relatively stable, decreasing by a marginal 0.8%. Streaming frequency varied by day of week and season. Weekday activity was consistently higher than weekends, streaming 24% more hours Monday–Friday on average. My streaming frequency also experienced seasonality, dipping notably during the summer months. Monthly streaming dropped by 64% from my most active period in December to my least in August. Peak listening hours occurred between 12:00–2:00 P.M. and 7:00–9:00 P.M. <br>
+Between 2015–2019, the total annual hours streamed on my Spotify account increased by over 1100%, reflecting rapid growth in engagement. From 2019-2024, annual streaming volume remained relatively stable, decreasing by a marginal 0.8%. Streaming frequency varied by day of week and season. Weekday activity was consistently higher than weekends, streaming 24% more hours on average Monday–Friday. My streaming frequency also experienced seasonality, dipping notably during the summer months. Monthly streaming dropped by 64% from my most active period in December to my least in August. Peak listening hours occurred from 12:00–2:00 P.M. and 7:00–9:00 P.M. <br>
 
-During the earlier years of my account, I frequently skipped tracks while exploring a wide range of new artists, peaking in 2019 with a skip rate of 54%. Skip rates steadily declined year-over-year, falling to 33% in 2024, while exploring just 3% fewer unique artists. My most-streamed artists from 2015–2020 were rappers; since 2021, each annual top artist has been a rock band. By 2024, my listening profile included a more balanced mix of media types, with annual podcast consumption increasing by 30% from 2019–2024.
+During the earlier years of my account, I frequently skipped tracks while exploring a wide range of new artists, peaking in 2019 with a skip rate of 54%. Skip rates steadily declined year-over-year, falling to 33% in 2024, while exploring just 3% fewer unique artists. My most-streamed artists from 2015–2020 were rappers; since 2021, each year's top artist has been a rock band. In recent years, my listening profile has featured a more balance mix of media types. In 2019, podcast episodes accounted for 6% of total streaming hours. By 2024, 45% of my total streaming was spent listening to podcasts.
 
 ## **Data Preparation**
 ### **Data Aggregation**<br>
-* Loaded all 23 files into Power Query and used *Append Queries as New* to insert all records into one usable dataset titled ***full_streaming_history***.
+* Loaded all 23 files into Power Query and used *Append Queries as New* to combine all records into one usable dataset titled ***full_streaming_history***.
   * Since the column names and data structure in each original source file matched, no additional manipulation was required to standardize the data.
 * After combining the datasets, I would typically disable loading for each individual query to optimize model performance. However, since each source file contains sensitive personal information, I removed them completely.
   * Before deleting the individual queries, I created a static duplicate of ***full_streaming_history*** to eliminate external dependencies and secure the model for public sharing.
@@ -44,7 +43,7 @@ Renamed Columns
 Created Columns
 
 * ***sec_played***, ***min_played***, and ***hrs_played*** as alternative measures of record duration.
-* ***month_streamed***, ***hr_of_day_streamed***, and     ***day_of_week_streamed*** to facilitate analysis of listening patterns.
+* ***month_streamed***, ***hr_of_day_streamed***, and ***day_of_week_streamed*** to facilitate analysis of listening patterns.
 * ***month_abbr*** to include abbreviated month names.
 * ***day_of_week_id*** and ***month_abbr*** to override default alphabetical sorting of categorical data.
 * ***is_track*** to indicate records representing songs and ***is_episode*** to indicate podcast episode records.
