@@ -52,7 +52,7 @@ Created Columns
 Changed Data Types
 
 * Converted all indicator variables from TRUE/FALSE to 1/0 (Whole Number) for compatibility in visuals.
-Pprev
+
 ## **Key Insights**
 ### **When I Listened: Temporal Patterns**
 
@@ -67,8 +67,8 @@ Pprev
   <img src = "images/spotify-timing-plots.png">
 </p>
 
-* I most frequently streamed from 12:00–2:00 P.M., with an additional spike from 7:00–9:00 P.M.
-* Weekday streaming was consistent between days and mirrored the overall time-of-day pattern. Weekend activity was lower overall and exhibited no significant temporal patterns.
+* I most frequently streamed from 12:00–2:00 P.M., with an additional spike from 7:00–9:00 P.M, reflecting a structured routine with more opportunities to listen during lunch and in the evening. 
+* Weekday streaming was consistent between days and mirrored the overall time-of-day pattern. Weekend activity was lower overall and exhibited no significant temporal patterns due to spending more time outside of my residence and in social settings.
 
 <br>
 <p align = "center">
@@ -76,14 +76,15 @@ Pprev
 </p>
 
 * Total streaming frequency varied seasonally. Three of the four highest-volume months occurred in the fall (October–December), while the four lowest-volume months fell in the summer (June–September).
-* Total streaming hours dropped 64% from the highest-streaming month (December) to the least active month (August).
+* Total streaming hours dropped 64% from the highest-streaming month (December) to the least active month (August). Similar to the dip in activity on weekends, I consumed far less media during the summer months while spending more time away from home without devices.
 
 <br>
 <p align = "center">
   <img src = "images/spotify-songs-podcasts-by-month-.png" style="width:480px">
 </p>
 
-* Within the overall seasonal trend, music and podcast streaming exhibited differing seasonal patterns. Since music accounts for 86% of my total lifetime streaming, monthly song volume predictably folllowed the overall streaming trend. Conversely, podcast activity exhibited an inverted seasonal trendline.
+* Within the overall seasonal trend, music and podcast streaming exhibited differing seasonal patterns. Since music accounts for 86% of my total lifetime streaming, monthly song volume predictably folllowed the overall streaming trend.
+* Podcast activity exhibited an inverted seasonal trend. My preference for podcasts that explore NFL topics shaped my seasonal podcast activity to mirror the NFL calendar. Podcast streaming rose steadily beginning in May after the NFL draft, peaked during the regular season, and tapered off late in the playoffs with fewer games to discuss each week. 
 
 ### **How I Listened: Streaming Behaviors**
 
@@ -91,8 +92,8 @@ Pprev
   <img src = "images/spotify-skipped-finished-songs.png">
 </p>
 
-* The percentage of songs I skipped peaked in 2019, skipping 54% of tracks prior to completion. Starting in 2020, my skip rate steadily declined, dropping to 33% in 2024.
-* Each year since 2020, I completed more songs than I skipped.
+* The percentage of songs I skipped peaked in 2019, skipping 54% of tracks prior to completion. Beginning in 2020, my skip rate steadily declined, dropping to 33% in 2024.
+* Each year since 2020, I completed more songs than I skipped, indicating personal development as a patient listener.
 
 <br>
 <p align = "center">
@@ -109,7 +110,7 @@ Pprev
 </p>
 
 * From 2015–2021, podcast episodes accounted for just 2% of my total streaming hours. In 2024, 45% of my total streaming was spent listening to podcasts, reflecting a major shift in the type of media I regularly consumed.
-* Over 80% of my total podcast streaming hours were spent listening to just three shows.
+* My podcast exploration was less inquisitive than my music journey, as over 80% of my total podcast streaming hours were spent listening to just three shows.
 
 <br>
 <p align = "center">
